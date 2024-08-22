@@ -4,7 +4,7 @@ abstract class Publicacao {
     private int paginas;
     private boolean emprestado;
     //métodos abstratos
-    public abstract void informacoes();
+    public abstract void exibirInformacoes();
     public abstract void emprestar();
     public abstract void devolver();
     //métodos especiais

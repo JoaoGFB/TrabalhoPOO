@@ -5,7 +5,7 @@ public class Livro extends Publicacao {
     }
     //implementação dos métodos abstratos
     @Override
-    public void informacoes() {
+    public void exibirInformacoes() {
         System.out.println("------- Informações -------");
         System.out.println("Título: "+this.getTitulo());
         System.out.println("Autor: "+this.getAutor());

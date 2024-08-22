@@ -19,7 +19,7 @@ public class TrabalhoPOO {
             } while (comando < 1 || comando > 4);
             switch (comando) {
                 case 1:
-                    l[0].informacoes();
+                    l[0].exibirInformacoes();
                     do {
                         System.out.println("Digite 1 para emprestar o livro ou 0 para devolve-lo: ");
                         emprestimo = scanner.nextInt();
@@ -30,7 +30,7 @@ public class TrabalhoPOO {
                         l[0].emprestar();
                     break;
                 case 2:
-                    l[1].informacoes();
+                    l[1].exibirInformacoes();
                     do {
                         System.out.println("Digite 1 para emprestar o livro ou 0 para devolve-lo: ");
                         emprestimo = scanner.nextInt();
@@ -41,7 +41,7 @@ public class TrabalhoPOO {
                         l[1].emprestar();
                     break;
                 case 3:
-                    l[2].informacoes();
+                    l[2].exibirInformacoes();
                     do {
                         System.out.println("Digite 1 para emprestar o livro ou 0 para devolve-lo: ");
                         emprestimo = scanner.nextInt();
