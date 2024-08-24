@@ -1,4 +1,5 @@
 abstract class Publicacao {
+    private String categoria;
     private String titulo;
     private String autor;
     private int paginas;
@@ -38,5 +39,11 @@ abstract class Publicacao {
     }
     public void setEmprestado(boolean emprestado) {
         this.emprestado = emprestado;
+    }
+    public String getCategoria() {
+        return categoria;
+    }
+    public void setCategoria(String categoria) {
+        this.categoria = categoria;
     }
 }

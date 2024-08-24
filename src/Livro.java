@@ -1,12 +1,14 @@
 public class Livro extends Publicacao {
     //construtor
-    public Livro(String titulo, String autor, int paginas) {
-        super(titulo, autor, paginas);
+    public Livro(String t, String a, int p) {
+        super(t, a, p);
+        this.setCategoria("Livro");
     }
     //implementação dos métodos abstratos
     @Override
     public void exibirInformacoes() {
         System.out.println("------- Informações -------");
+        System.out.println("Categoria: "+this.getCategoria());
         System.out.println("Título: "+this.getTitulo());
         System.out.println("Autor: "+this.getAutor());
         System.out.println("Número de Páginas: "+this.getPaginas());
